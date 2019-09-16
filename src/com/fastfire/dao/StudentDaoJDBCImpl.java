@@ -59,7 +59,7 @@ public class StudentDaoJDBCImpl implements StudentDao {
 	}
 
 	@Override
-	public boolean deleteStudent() {
+	public boolean deleteStudent(Student student) {
 		// TODO Auto-generated method stub
 		return false;
 	}
